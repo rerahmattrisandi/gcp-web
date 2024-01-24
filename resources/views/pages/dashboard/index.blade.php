@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
 @section('title')
-    Dashboard
+    E-Project | Dashboard
 @endsection
 
 @section('content')

@@ -10,7 +10,7 @@
             @csrf
             <div class="text-center">
                 <h1 class="font-bold text-[40px] items-center">
-                    Add a Product
+                    Edit Tugas Anda!
                 </h1>
             </div>
             <div class="pt-2 pb-2 w-1/2 lg:w-1/2 md:w-2/6 sm:w-1/2 m-auto">

@@ -23,14 +23,13 @@ use App\Http\Controllers\Dashboard\DashboardController;
 Route::get('/', [HomeController::class, 'index'])->name('homepage.index');
 Route::get('/projects', [ProjectController::class, 'index'])->name('homepage.project');
 
-Route::get('/login', [LoginController::class, 'index'])->name('login');
 
 Route::prefix('user')->name('user.')->group(function () {
     Route::get('', [UserController::class, 'index'])->name('index');
     Route::post('store', [UserController::class, 'store'])->name('store');
 });
 
-Route::prefix('dashboard')->middleware('auth')->group(function () {
+Route::prefix('dashboard')->group(function () {
     Route::get('', [DashboardController::class, 'index'])->name('dashboard');
 
     Route::prefix('project')->name('project.')->group(function () {

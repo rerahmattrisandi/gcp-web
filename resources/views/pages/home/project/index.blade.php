@@ -1,7 +1,7 @@
 @extends('layouts.home')
 
 @section('title')
-    Re | BimBim
+    E-Project
 @endsection
 
 @section('content')

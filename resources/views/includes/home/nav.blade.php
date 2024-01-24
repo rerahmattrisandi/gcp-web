@@ -1,6 +1,6 @@
 <div class="order-1">
     <a href="{{ route('homepage.index') }}">
-        <h2 class="text-slate-300 font-bold text-2xl">Re | Bimbim </h2>
+        <h2 class="text-slate-300 font-bold text-2xl">E-Project </h2>
     </a>
 </div>
 

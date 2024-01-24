@@ -1,7 +1,7 @@
 @extends('layouts.home')
 
 @section('title')
-    Re | BimBim
+    E-Project
 @endsection
 
 @section('content')
@@ -13,7 +13,8 @@
                 <h1 class="text-light-sage-green font-bold text-5xl"></h1>
                 <h1 class="font-bold text-5xl pt-5"></h1>
                 <div class="pt-1">
-                    <p class="text-putih opacity-75 text-lg text-left">Selamat datang! Temukan informasi yang kamu butuhkan di website kami.</p>
+                    <p class="text-putih opacity-75 text-lg text-left">Selamat datang!.</p>
+                    <p class="text-putih opacity-75 text-lg text-left">E-Project merupakan website yang dibangun untuk membantu mahasiswa untuk mengumpulkan tugas matakuliah dalam bentuk gambar!.</p>
                 </div>
                 <div class="pt-5">
                     <a href="#_" class="relative inline-flex items-center px-6 py-3 overflow-hidden text-md font-medium border-2 border- rounded-full hover:text-putih group ">
