@@ -15,3 +15,8 @@ mix.js('resources/js/app.js', 'public/js').postCss('resources/css/app.css', 'pub
     require('tailwindcss'),
     require('autoprefixer'),
 ]);
+mix.browserSync({
+	proxy: 'laravel.test',
+	port: 3000,
+	open: false,
+});
