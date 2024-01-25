@@ -23,6 +23,10 @@ env_variables:
     APP_ENV: production
     APP_KEY: base64:8jG9nZLRogqoUrNPlxu936IGiNKI1aYHJ2t7NbtW9Xs=
     APP_NAME: "GCP - Web"
+
+    DB_DATABASE: web-db
+    DB_USERNAME: root
+    DB_PASSWORD: re
     DB_SOCKET: '/cloudsql/gcp-web-412308:asia-southeast1:gcp-web-sql'
 
     LOG_LEVEL: debug
